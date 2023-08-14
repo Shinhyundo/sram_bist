@@ -1,0 +1,72 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Mon Aug 14 12:28:05 2023
+[*]
+[dumpfile] "/home/hyundo/verilog/sram_bist/test.vcd"
+[dumpfile_mtime] "Mon Aug 14 12:27:37 2023"
+[dumpfile_size] 153059
+[savefile] "/home/hyundo/verilog/sram_bist/sram_bist.gtkw"
+[timestart] 70900
+[size] 1000 600
+[pos] -1 -1
+*-16.000000 3546600 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_sram_bist.
+[sst_width] 214
+[signals_width] 181
+[sst_expanded] 1
+[sst_vpaned_height] 245
+@28
+tb_sram_bist.clock
+tb_sram_bist.reset
+tb_sram_bist.bist_en
+@200
+-
+-sram_bist
+@24
+tb_sram_bist.sram_bist.n_state[2:0]
+tb_sram_bist.sram_bist.c_state[2:0]
+@200
+-
+@28
+tb_sram_bist.sram_bist.w_rising_start
+@24
+tb_sram_bist.sram_bist.r_addr_cnt[7:0]
+@28
+tb_sram_bist.sram_bist.r_cnt_start
+[color] 2
+tb_sram_bist.sram_bist.r_cnt_done
+tb_sram_bist.sram_bist.r_csn
+tb_sram_bist.sram_bist.r_wen
+@22
+tb_sram_bist.sram_bist.r_wr_data[9:0]
+tb_sram_bist.sram_bist.o_wr_data[9:0]
+@28
+tb_sram_bist.sram_bist.r_b_done
+tb_sram_bist.sram_bist.r_b_err
+@201
+-
+@200
+-sram
+@28
+tb_sram_bist.sram.ena
+tb_sram_bist.sram.wea
+tb_sram_bist.sram_bist.w_rising_start
+@24
+tb_sram_bist.sram.addra[7:0]
+@22
+tb_sram_bist.sram.dina[9:0]
+@200
+-
+@22
+tb_sram_bist.sram.douta[9:0]
+@200
+-
+@22
+tb_sram_bist.sram.sram_data[0].mem_sell[9:0]
+tb_sram_bist.sram.sram_data[1].mem_sell[9:0]
+tb_sram_bist.sram.sram_data[254].mem_sell[9:0]
+tb_sram_bist.sram.sram_data[255].mem_sell[9:0]
+@200
+-
+[pattern_trace] 1
+[pattern_trace] 0
